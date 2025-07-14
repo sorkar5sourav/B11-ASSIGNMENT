@@ -3,10 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #f5f5f5;
+}
 .fira-sans-thin {
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+p {
+    color: rgba(14, 14, 14, 0.7);
+}
+h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+h4 {
+    font-size: 32px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 40px;
+    font-weight: bold;
 }
 button{
     font-family: "Fira Sans", sans-serif;
@@ -66,4 +85,77 @@ nav {
     width: 474px;
     height: 400px;
     margin: 80px 60px;
+}
+.card-section{
+    margin: 80px 160px;
+}
+.card-section h2 {
+    margin-bottom: 32px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.card h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.card img{
+    width: 62px;
+    height: 62px;
+}
+.card div{
+    padding: 24px;
+    background-color: #fff;
+}
+.vision-section {
+    margin: 0 160px;
+}
+.vision-card {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 32px 0;
+}
+.vision-card div {   
+    border-radius: 16px; 
+    padding: 32px;
+}
+.vision-card h5{
+    margin: 24px 0 12px 0;
+}
+.vision-card button {
+    margin-top: 24px;
+}
+.blue {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.Green {
+    background-color: #c6e4d6;
+}
+.yellow {
+    background-color: #f7ebcf;
+}
+.blue button {
+    background-color: #5490f5;
+    color: #fff;
+}
+.Green button {
+    background-color: #09a15c;
+    color: #fff;
+}
+.yellow button {
+    background-color: #ffc239;
+    color: #fff;
+}
+.speech {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 48px 24px;
+    background-image: url('/assets/quote-bg.png');
+    background-position-y: ;
+    background-repeat: no-repeat;
 }
